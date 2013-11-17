@@ -1,0 +1,29 @@
+/* bootstrap 3 helpers */
+.navbar-form input, .form-inline input {
+	width:auto;
+}
+
+header {
+	height:50px;
+}
+
+#nav-wrapper {
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+	background-color: white;
+}
+
+#sidebar.affix-top {
+    position: static;
+    width: 100%;
+}
+
+#sidebar.affix {
+    position: fixed;
+    top: 50px;
+    z-index: 10;
+}
