@@ -17,7 +17,6 @@ return array(
 		'backend' => dirname(__FILE__) . '/../..' . '/backend',
 		'vendor' => dirname(__FILE__) . '/../..' . '/common/lib/vendor',
 		'yiibooster' => dirname(__FILE__) . '/../..' . '/common/extensions/yiibooster2',
-		'elfinder' => dirname(__FILE__) . '/../..' . '/common/extensions/ezze-elfinder',
 	),
 	'import' => array(
 		'common.extensions.components.*',
