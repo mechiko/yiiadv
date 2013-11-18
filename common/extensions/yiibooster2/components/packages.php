@@ -22,7 +22,8 @@ return array(
 	'bootstrap.js' => array(
 		'baseUrl' => $this->enableCdn ? '//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/' : $this->getAssetsUrl() . '/bootstrap/',
 		'js' => array($this->minify ? 'js/bootstrap.min.js' : 'js/bootstrap.js'),
-		'depends' => array('jquery', 'jqui-tb-noconflict'),
+//		'depends' => array('jquery', 'jqui-tb-noconflict'),
+		'depends' => array('jquery', 'jquery.ui'),
 	),
 	'bootstrap-yii' => array(
 		'baseUrl' => $this->getAssetsUrl(),
